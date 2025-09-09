@@ -1,7 +1,7 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from 'react-native-vector-icons';
-import IndexScreen from './index';
-import SettingsScreen from './settings';
+import IndexScreen from '../screens/IndexScreen';
+import SettingsScreen from '../screens/SettingsScreen';
 import useTheme from '@/hooks/useTheme';
 
 const Tab = createBottomTabNavigator();
